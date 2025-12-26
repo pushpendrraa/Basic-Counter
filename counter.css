@@ -1,0 +1,30 @@
+body{
+    background-color: rgb(175, 240, 240);
+}
+    #countLabel{
+    display: block;
+    text-align: center;
+    font-size: 12em;
+}
+#btncontainer{
+    text-align: center;
+  
+}
+.buttons{
+    padding: 20px 40px;
+    border-radius: 10px;
+    background-color: rgb(116, 204, 204);
+        border: none;        /* removes black border */
+    cursor: pointer;
+    font-size: 1em;
+     box-shadow: 8px 8px 5px rgba(158, 243, 236, 0.582);
+
+    
+}
+.buttons:hover{
+    background-color: rgb(101, 101, 189);
+    color: rgb(255, 255, 255);
+}
+.buttons.active {
+    transform: scale(1.15); 
+}
